@@ -1,0 +1,3 @@
+[submodule "spring-core"]
+	path = spring-core
+	url = https://github.com/sunnyineverywhere/spring-core.git
