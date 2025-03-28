@@ -1,9 +1,17 @@
-package pokemon.clone;
+package pokemon.clone.coin;
 
 public class Coin {
-    private Boolean isFront;
+    private CoinFace currentFace;
 
-    public Boolean flip() {
-        return isFront;
+    public Coin() {
+        this.currentFace = null;
+    }
+
+    public CoinFace getCurrentFace() {
+        return currentFace;
+    }
+
+    public void setCurrentFace(CoinFace coinFace) {
+        this.currentFace = coinFace;
     }
 }
